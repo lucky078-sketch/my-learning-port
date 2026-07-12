@@ -90,10 +90,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "A beginner's portfolio showcasing my journey into computer science and web development.",
+          "The personal portfolio of a beginner learning computer science and web development. Projects, skills, and lessons along the way.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "My Learning Journey — Computer Science Portfolio" },
+      { name: "twitter:description", content: "The personal portfolio of a beginner learning computer science and web development. Projects, skills, and lessons along the way." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/59b9c079-2ac8-4d23-bfdc-c641b077d5ee/id-preview-7d987ba4--31ae48b7-098b-46dc-bd14-6430f98de366.lovable.app-1783884204907.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/59b9c079-2ac8-4d23-bfdc-c641b077d5ee/id-preview-7d987ba4--31ae48b7-098b-46dc-bd14-6430f98de366.lovable.app-1783884204907.png" },
     ],
     links: [
       {
