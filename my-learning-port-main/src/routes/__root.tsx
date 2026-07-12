@@ -92,8 +92,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Un portfolio de débutant qui présente mon parcours dans l'informatique et le développement web.",
       },
+      { property: "og:image", content: "/kurtis.png" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: "/kurtis.png" },
     ],
     links: [
       {
