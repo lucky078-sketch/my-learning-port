@@ -45,9 +45,15 @@ export function Navbar() {
         <a
           href="#home"
           onClick={(e) => handleClick(e, "#home")}
-          className="text-lg font-bold text-foreground"
+          className="flex items-center gap-2 text-lg font-bold text-foreground"
         >
-          <span className="text-primary">&lt;/&gt;</span> Mon parcours
+          <img
+            src="/kurtis.png"
+            alt="Kurtis"
+            className="h-9 w-9 rounded-full border border-border object-cover object-top"
+          />
+          <span className="text-primary">&lt;/&gt;</span>
+          <span>Mon parcours</span>
         </a>
 
         <ul className="hidden items-center gap-1 md:flex">
